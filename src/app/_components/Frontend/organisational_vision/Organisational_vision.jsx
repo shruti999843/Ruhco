@@ -15,13 +15,17 @@ import org from "./assets/org.png";
 import mobileorg from "./assets/mobileorg.jpg";
 
 import OrgView from "./parts/OrgView.jsx";
-
+import SeoHiddenText from "../hiddentext/SeoHiddenText.jsx";
 
 const Oraganisational_vision = () => {
   return (
     <>
       <Hero />
       <div className="md:p-10 p-5 bg-[#FCFCFF]">
+        <SeoHiddenText
+ title="Organisational Vision"
+        description="At RuhCo, we help shape an organisational vision that aligns strategic direction, binds culture and goals, and drives measurable results. Our approach helps leaders create a clear, inspiring roadmap, ensuring long-term growth, cohesive teams, and a shared sense of purpose across the organisation."
+/>
         <Workshop />
         <Vision />
         <LeadershipProwess />

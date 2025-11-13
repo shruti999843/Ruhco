@@ -16,11 +16,14 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata() {
   return {
     title:
-      "RuhCo Services | Executive Coaching, Culture, Change & Vision Alignment",
+      "Organisational Vision in the world of AI and Digital Transformation | RuhCo",
     description:
-      " From executive coaching to coaching skills, vision alignment to change leadership—RuhCo builds bold, values-led leaders and cultures that scale with integrity.",
+      "Develop Organisational Vision with RuhCo. Shruti Sonthalia's facilitation ensures leadership ownership and clarity, relevance, and direction in a VUCA world.",
     keywords:
       "Executive coaching, leadership development, organizational culture, change management, coaching supervision, coaching skills for leaders, coaching in India, transformational leadership, coaching for founders, coaching for CXOs, vision and strategy alignment, social impact and inclusion",
+         alternates: {
+      canonical: "https://ruhco.org/services/organisational_vision",
+    },
   };
 }
 

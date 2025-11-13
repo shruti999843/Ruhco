@@ -12,11 +12,17 @@ import ContactForm from "./parts/Contact";
 import InsightsSlider from "./parts/SliderInsights";
 import ResearchCard from "./parts/Stories";
 import Hero from "./parts/Hero";
+import SeoHiddenText from "../hiddentext/SeoHiddenText";
 
 const Home = () => {
   return (
     <>
+    
     <Hero/>
+<SeoHiddenText
+ title="RuhCo"
+        description="At RuhCo, we empower professionals with our innovative leadership development solutions that support strengthening strategic thinking and emotional intelligence. With top coaches supporting our work, we combine personalised coaching and technology integration to foster measurable personal and organisational growth. Experience a change that strengthens your leadership presence, resilience, and performance in the fast-paced world of business."
+/>
       <Carausal />
       <Empowering/>
       {/* <Testimonials />

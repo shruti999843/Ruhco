@@ -16,11 +16,14 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata() {
   return {
     title:
-      "Contact RuhCo | Start Your Leadership Transformation Journey",
+      "Start Your Leadership Transformation Journey | RuhCo",
     description:
-    "Let’s build your next leadership breakthrough. Reach out to RuhCo for tailored coaching programs, leadership transformation, and strategic culture change.",
+    "Contact RuhCo founder, Shruti Sonthalia, for tailored Executive Coaching India programs. Achieve Leadership Development breakthrough and strategic Coaching Culture change.",
     keywords:
       "Executive coaching, leadership development, organizational culture, change management, coaching supervision, coaching skills for leaders, coaching in India, transformational leadership, coaching for founders, coaching for CXOs, vision and strategy alignment, social impact and inclusion",
+       alternates: {
+      canonical: "https://ruhco.org/contact-us",
+    },
   };
 }
 

@@ -21,11 +21,14 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata() {
   return {
     title:
-      "RuhCo Services | Executive Coaching, Culture, Change & Vision Alignment",
+      "Change Management for Business Growth and Success| RuhCo",
     description:
-      " From executive coaching to coaching skills, vision alignment to change leadership—RuhCo builds bold, values-led leaders and cultures that scale with integrity.",
+      "Discover how RuhCo, founded by Shruti Sonthalia, implements Change Management strategies to drive business growth, enhance performance, and ensure smooth Digital transformation & AI transitions.",
     keywords:
       "Executive coaching, leadership development, organizational culture, change management, coaching supervision, coaching skills for leaders, coaching in India, transformational leadership, coaching for founders, coaching for CXOs, vision and strategy alignment, social impact and inclusion",
+          alternates: {
+      canonical: "https://ruhco.org/services/change_management",
+    },
   };
 }
 

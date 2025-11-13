@@ -8,11 +8,15 @@ import Who from "./parts/Who";
 import Banner from "./parts/Banner";
 import Ruhco from "./parts/Ruhco";
 // import git from "./assets/git.png";
-
+import SeoHiddenText from "../hiddentext/SeoHiddenText";
 const Organsiational_culture = () => {
   return (
     <div>
       <Hero />
+      <SeoHiddenText
+ title="Organisational Culture"
+        description="Building a strong organisational culture is essential for sustainable growth. By fostering a learning culture, companies empower teams to innovate, while leaders learning builds insight-driven, resilient workplaces."
+/>
       <Importance />
       <Banner />
       <Why />

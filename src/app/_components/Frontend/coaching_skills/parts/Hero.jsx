@@ -100,7 +100,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-5">
         <h1 className="text-white text-2xl md:text-5xl font-bold mb-4 tracking-wider uppercase">
-          MASTER TRANSFORMATIONAL LEADERSHIP
+         Master Coaching Skills for Transformational Leaders
         </h1>
         <p className="text-white text-lg md:text-xl max-w-3xl mb-6">
           Develop essential coaching techniques, enhance leadership abilities,

@@ -162,7 +162,7 @@ const Hero = () => {
         {/* Content Layer */}
         <div className="relative z-20 flex flex-col justify-end items-center text-center px-4 sm:px-6 md:px-8 h-full pb-10">
           <h1 className="text-white text-xl sm:text-2xl md:text-4xl font-bold mb-2 tracking-wide uppercase">
-            Our Executive Coaching Integrates:
+          Our executive coaching encompasses
           </h1>
           <p className="text-white text-sm sm:text-lg md:text-xl max-w-2xl mb-6">
             Multi-Touchpoint Learning for Sustainable Impact

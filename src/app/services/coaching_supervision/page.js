@@ -15,11 +15,14 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata() {
   return {
     title:
-      "RuhCo Services | Executive Coaching, Culture, Change & Vision Alignment",
+      "Coaching Supervision for impact and growth | RuhCo",
     description:
-      " From executive coaching to coaching skills, vision alignment to change leadership—RuhCo builds bold, values-led leaders and cultures that scale with integrity.",
+      "Elevate coaching with Coaching Supervision from RuhCo. Founder Shruti Sonthalia provides ICF guidance for professional development and ethical practice.",
     keywords:
       "Executive coaching, leadership development, organizational culture, change management, coaching supervision, coaching skills for leaders, coaching in India, transformational leadership, coaching for founders, coaching for CXOs, vision and strategy alignment, social impact and inclusion",
+        alternates: {
+      canonical: "https://ruhco.org/services/coaching_supervision",
+    },
   };
 }
 

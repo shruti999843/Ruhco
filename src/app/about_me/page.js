@@ -7,15 +7,15 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata() {
   return {
     title:
-      "Shruti Sonthalia & RuhCo | Human-First  Purpose-Driven Leadership & Systemic Change",
+      "Executive Coaching and Leadership Development for C-Suite Leaders  | RuhCo",
     description:
-      " Rooted in purpose and community, RuhCo is redefining leadership through coaching, strategy, and inclusion—led by global coach and changemaker Shruti Sonthalia.",
+      "Meet Shruti Sonthalia, the RuhCo founder, your Business Coach and Top Coaches India. Explore Executive Coaching, expertise in Women in Leadership and C-suite coaching.",
     keywords:
       "Executive coaching, leadership development, organizational culture, change management, coaching supervision, coaching skills for leaders, coaching in India, transformational leadership, coaching for founders, coaching for CXOs, vision and strategy alignment, social impact and inclusion",
 
-    // other: {
-    //   "google-site-verification": "QTcmfuX31VXilPv-HlbFdsiCkAOoSPCKra2Tz-y9CtM",
-    // },
+    alternates: {
+      canonical: "https://ruhco.org/about_me",
+    },
   };
 }
 

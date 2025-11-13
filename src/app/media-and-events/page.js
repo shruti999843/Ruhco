@@ -19,11 +19,14 @@ export const dynamic = "force-dynamic";
 export async function generateMetadata() {
   return {
     title:
-      "In the Media | Shruti Sonthalia & RuhCo in Coaching, DEI & Social Innovation",
+      "Podcasts, Media & Thought Leadership | Shruti Sonthalia | RuhCo ",
     description:
-      " Explore RuhCo’s thought leadership in global coaching, DEI, burnout recovery, and mission-led organizations—through media, podcasts, and event highlights.",
+      " Discover the RuhCo thought leadership with Shruti Sonthalia, covering global coaching, DEI, burnout recovery, and mission-driven organisations through media features, podcasts, and event highlights.",
     keywords:
       "Executive coaching, leadership development, organizational culture, change management, coaching supervision, coaching skills for leaders, coaching in India, transformational leadership, coaching for founders, coaching for CXOs, vision and strategy alignment, social impact and inclusion",
+      alternates: {
+      canonical: "https://ruhco.org/media-and-events",
+    },
   };
 }
 

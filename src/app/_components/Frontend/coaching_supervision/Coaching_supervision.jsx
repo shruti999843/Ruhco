@@ -7,12 +7,18 @@ import Contact_us from "../about/parts/Contact_us";
 import LeadershipProwess from "./parts/BannerwithImage";
 import cont from "./assets/1.jpg"
 import mob from "./assets/mob.jpg";
+import SeoHiddenText from "../hiddentext/SeoHiddenText";
 
 const Coaching_supervision = () => {
   return (
     <>
       <Hero />
       <div className="md:p-14">
+        <SeoHiddenText
+ title="Coaching Supervision for Aspiring Coaches"
+        description="Deepen your coaching practice with professional coaching supervision at RuhCo. This structured process provides a reflective space to navigate challenges, sharpen your approach, and increase your effectiveness as a coach. Supervision is a discussion deeply aligned with the processes outlined by the International Coaching Federation (ICF) for professional development and ethical practice – as well as a powerful option for new coaches – to have your practice develop and deepen.
+"
+/>
         <LeadershipProwess />
         <Coaching />
         <Benifits />

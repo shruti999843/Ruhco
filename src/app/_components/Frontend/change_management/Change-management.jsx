@@ -9,12 +9,16 @@ import Sliders from './parts/Slider';
 import Contact_us from '../about/parts/Contact_us';
 import cont from "./assets/1.jpg"
 import mob from "./assets/getmob.jpg"
-
+import SeoHiddenText from '../hiddentext/SeoHiddenText';
 const Change = () => {
   return (
     <>
       <Hero />
       <div className="p-5 md:p-14 bg-[#FCFCFF]">
+        <SeoHiddenText
+ title="Change Management"
+        description="Effective change management ensures smooth transitions during organisational shifts. At Ruhco, we guide organisations through digital transformation and AI adoption, enabling teams to embrace new technologies, streamline processes, and deliver sustained growth with little disruption."
+/>
         <Workshop />
         <Sliders />
         <WorkshopBenefits />

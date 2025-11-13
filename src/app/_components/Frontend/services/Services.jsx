@@ -9,12 +9,17 @@ import LeadershipProwess from "./parts/BannerwithImage.jsx";
 import Testimonials from "./parts/Testimonials.jsx";
 import bgimage from "../services/assets/2.jpg"
 import bgimagemob from "../services/assets/mob.jpg";
+import SeoHiddenText from "../hiddentext/SeoHiddenText.jsx";
 
 const Services = () => {
   return (
     <>
       <Hero />
       <div className="md:p-14 bg-[#FCFCFF]">
+        <SeoHiddenText
+        title="Our executive coaching encompasses"
+        description="RuhCo’s executive coaching  encompasses  personalised CXO coaching as well as business and Women leaders to enhance their influence and decision-making. Our solutions also focus on resilience, clarity, stakeholder management and stress management & burnout while driving organisational growth and achieving professional excellence."
+        / >
         <LeadershipProwess />
         <Coaching />
         <Executive />
