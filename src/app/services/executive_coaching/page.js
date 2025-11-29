@@ -20,7 +20,7 @@ export async function generateMetadata() {
     title:
       "Executive  and Business Coaching for C-Suite Leaders | RuhCo",
     description:
-      "Enhance leadership and professional growth with RuhCo, guided by Shruti Sonthalia. Executive coaching in India designed for leaders seeking clarity, skill development, and success.",
+      "RuhCo, by Shruti Sonthalia, offers Executive Coaching India for C-suite coaching/CXO coaching. Boost executive presence, manage burnout, and master delegation.",
     keywords:
       "Executive coaching, leadership development, organizational culture, change management, coaching supervision, coaching skills for leaders, coaching in India, transformational leadership, coaching for founders, coaching for CXOs, vision and strategy alignment, social impact and inclusion",
          alternates: {
