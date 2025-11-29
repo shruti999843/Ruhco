@@ -14,10 +14,10 @@ const Change = () => {
   return (
     <>
       <Hero />
-      <div className="p-5 md:p-14 bg-[#FCFCFF]">
-        <SeoHiddenText
+      <div className="m-5 md:p-14 bg-[#FCFCFF]">
+        <SeoHiddenText 
  title="Change Management"
-        description="Effective change management ensures smooth transitions during organisational shifts. At Ruhco, we guide organisations through digital transformation and AI adoption, enabling teams to embrace new technologies, streamline processes, and deliver sustained growth with little disruption."
+        description={`Effective change management ensures smooth transitions during organisational shifts. At Ruhco, we guide organisations through <strong>digital transformation and AI</strong> adoption, enabling teams to embrace new technologies, streamline processes, and deliver sustained growth with little disruption.`}
 />
         <Workshop />
         <Sliders />
