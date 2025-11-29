@@ -74,9 +74,9 @@ export default function Carausal() {
   return (
     <div className="px-5 xl:px-12 py-5">
       <div className="flex justify-center py-5">
-        <span className="text-2xl md:text-3xl font-normal text-center text-[#E53935] underline-offset-4 capitalize">
+        <h2 className="text-2xl md:text-3xl font-normal text-center text-[#E53935] underline-offset-4 capitalize">
           Success stories built with leaders at
-        </span>
+        </h2>
       </div>
       <div className="space-y-10 py-5">
         <Slider {...settings}>

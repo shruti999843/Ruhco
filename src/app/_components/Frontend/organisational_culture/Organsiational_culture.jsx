@@ -15,7 +15,7 @@ const Organsiational_culture = () => {
       <Hero />
       <SeoHiddenText
  title="Organisational Culture"
-        description="Building a strong organisational culture is essential for sustainable growth. By fostering a learning culture, companies empower teams to innovate, while leaders learning builds insight-driven, resilient workplaces."
+        description={`Building a strong organisational culture is essential for sustainable growth. By fostering a learning culture, companies empower teams to innovate, while <strong>leaders learning</strong> builds insight-driven, resilient workplaces.`}
 />
       <Importance />
       <Banner />

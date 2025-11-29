@@ -152,9 +152,7 @@
 //     </div>
 //   );
 // };
-
 "use client"
-// export default WhyWeStandApart;
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import img from "../assets/stand/1.jpg";
@@ -252,8 +250,6 @@ const FeatureCard = ({ feature }) => {
     }
   };
 
-  const shouldShowDescription = isMobile ? clicked : undefined;
-
   return (
     <div
       className="relative group rounded-[2rem] overflow-hidden shadow-lg h-64 cursor-pointer"
@@ -271,38 +267,26 @@ const FeatureCard = ({ feature }) => {
         <div className="absolute inset-0 bg-black opacity-40 transition-all duration-500 group-hover:opacity-0"></div>
       </div>
 
-      {/* Title Text (initially visible, hidden on hover or mobile click) */}
-      <div
-        className={`absolute inset-0 flex items-center justify-center text-white text-center px-4 transition-opacity duration-500 ${
-          isMobile
-            ? clicked
-              ? "opacity-0"
-              : "opacity-100"
-            : "group-hover:opacity-0 opacity-100"
+      {/* Single H3 for SEO and visual title */}
+      <h3
+        className={`absolute inset-0 flex items-center justify-center text-white text-center px-4 text-xl font-bold transition-opacity duration-500 ${
+          isMobile ? (clicked ? "opacity-0" : "opacity-100") : "group-hover:opacity-0 opacity-100"
         }`}
       >
-        <h3 className="text-xl font-bold">{feature.title}</h3>
-      </div>
+        {feature.title}
+      </h3>
 
-      {/* Description Overlay (visible on mobile click or desktop hover) */}
+      {/* Description Overlay */}
       <div
         className={`absolute inset-0 bg-opacity-60 flex flex-col justify-center items-center text-white p-5 text-center transition-opacity duration-300 ${
-          isMobile
-            ? clicked
-              ? "opacity-100"
-              : "opacity-0"
-            : "group-hover:opacity-100 opacity-0"
+          isMobile ? (clicked ? "opacity-100" : "opacity-0") : "group-hover:opacity-100 opacity-0"
         }`}
       >
         <div className="absolute inset-0 bg-black opacity-20"></div>
-        <h3 className="text-xl font-bold mb-2 relative z-10">
-          {feature.title}
-        </h3>
         <p className="text-sm relative z-10">{feature.description}</p>
       </div>
     </div>
   );
 };
-
 
 export default WhyWeStandApart;

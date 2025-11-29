@@ -220,9 +220,9 @@ const Hero = () => {
 
         {/* Content */}
         <div className="relative z-20 flex flex-col justify-end items-center text-center px-4 sm:px-6 md:px-8 h-full md:pb-10 pb-3">
-          <h1 className="text-white text-xl sm:text-2xl md:text-4xl font-bold mb-2 tracking-wide uppercase">
+          {/* <h1 className="text-white text-xl sm:text-2xl md:text-4xl font-bold mb-2 tracking-wide uppercase">
             Coaching Supervision for Aspiring Coaches
-          </h1>
+          </h1> */}
           <p className="text-white text-sm sm:text-lg md:text-xl max-w-2xl md:mb-6 mb-0">
             Enhance your coaching skills with expert guidance, constructive
             feedback, and practical insights. Build confidence, refine your

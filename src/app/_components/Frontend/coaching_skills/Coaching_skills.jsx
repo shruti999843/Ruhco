@@ -18,7 +18,7 @@ const Coaching_skills = () => {
       <div className="md:p-14 bg-[#FCFCFF]">
         <SeoHiddenText
  title="Master Coaching Skills for Transformational Leaders"
-        description="Strengthen your leadership teams with the RuhCo Coaching Skills Programme, built to shape transformational leaders for today’s dynamic workplaces. The programme focuses on enhancing emotional intelligence, improving delegation, and offering the best coaching certification, empowering leaders to build collaborative, motivated, and high-performing teams.
+        description="Strengthen your leadership teams with the RuhCo Coaching Skills Programme, built to shape transformational leaders for today’s dynamic workplaces. The programme focuses on enhancing emotional intelligence, improving delegation, and offering the <strong>best coaching certification</strong>, empowering leaders to build collaborative, motivated, and high-performing teams.
 "
 />
         <LeadershipProwess />
