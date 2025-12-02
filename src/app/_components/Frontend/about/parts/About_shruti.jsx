@@ -78,9 +78,9 @@ const About_shruti = () => {
     <div className="flex flex-col md:mt-12 mt-5 gap-4">
       <div className="md:flex hidden flex-col md:flex-row justify-between">
         <div className="flex flex-col w-full md:w-[60%] space-y-8">
-          <span className="text-2xl md:text-3xl font-normal text-[#E53935] capitalize underline-offset-4 ">
+          <h2 className="text-2xl md:text-3xl font-normal text-[#E53935] capitalize underline-offset-4 ">
             About Shruti Sonthalia
-          </span>
+          </h2>
           <span className="text-lg md:text-xl max-w-full md:max-w-4xl">
             Shruti Sonthalia, a highly accomplished Master Certified Coach
             recognized by the International Coaching Federation (ICF), conveys a

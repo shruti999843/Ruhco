@@ -117,7 +117,7 @@ export default function ExecutiveCoaching() {
 
       <div className="flex flex-col gap-5">
         <h2 className=" tracking-widest font-normal text-2xl md:text-3xl text-[#E53935] capitalize  ">
-       Our executive coaching encompasses:
+       Our Executive Coaching Encompasses the Following :
         </h2>
         <p className="text-[#151582]">
           Our Approach: Multi-Touchpoint Learning for Sustainable Impact

@@ -4,12 +4,27 @@ import Contact_us from "../about/parts/Contact_us";
 import git from "./assets/git.png";
 import mob from "./assets/getmob.jpg";
 import Cards from "./parts/Cards";
+import SeoHiddenText from "../hiddentext/SeoHiddenText";
 
 const CaseStudies = () => {
   return (
     <div>
+      <h1
+  style={{
+    position: "absolute",
+    left: "-9999px",
+    top: "0",
+    overflow: "hidden",
+    height: "1px",
+    width: "1px",
+    fontSize: "1px",
+  }}
+>
+ Case Studies That Drive Real Change
+</h1>
       <Hero />
       <Cards/>
+
       <div className="md:px-6">
         <Contact_us
           heading="Take the First Step Toward Successful Change"

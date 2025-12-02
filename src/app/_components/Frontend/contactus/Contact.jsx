@@ -31,7 +31,7 @@ export default function Contact() {
   return (
     <>
       <div className="text-center text-2xl font-semibold mt-12 mb-6">
-        GET IN TOUCH
+       <h2> GET IN TOUCH</h2>
       </div>
       <div className="max-w-4xl mx-auto mb-30 p-8 bg-white rounded-3xl shadow-lg">
         <form className="space-y-8" onSubmit={sendEmail}>

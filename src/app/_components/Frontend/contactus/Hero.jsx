@@ -101,9 +101,9 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black opacity-30 z-10"></div>
 
       <div className="absolute inset-0 z-20 flex flex-col justify-end items-center text-center px-4 md:px-8 py-10 md:py-20">
-        <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-2 tracking-wide text-white">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-bold mt-2 tracking-wide text-white">
           START YOUR JOURNEY WITH RUHCO TODAY
-        </h2>
+        </h1>
         <p className="mt-4 text-sm md:text-lg text-white max-w-xl mx-auto">
           Reach out today for expert guidance, personalized coaching, and
           strategies to unlock your full potential.

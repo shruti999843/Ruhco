@@ -101,9 +101,9 @@ const Sliders = () => {
       >
         {/* Shared Text */}
         <div className="z-20 px-6 md:px-10 text-white w-full md:w-[40%] space-y-4">
-          <h1 className="font-medium tracking-wider">
+          <h2 className="font-medium tracking-wider">
             ō Why Navigating Change Matters
-          </h1>
+          </h2>
 
           <h2 className="font-semibold text-3xl md:text-5xl tracking-wider">
             The Challenge We Solve?

@@ -18,7 +18,7 @@ const Services = () => {
       <div className="md:p-14 bg-[#FCFCFF]">
         <SeoHiddenText
         title="Our executive coaching encompasses"
-        description="RuhCo’s executive coaching  encompasses  personalised CXO coaching as well as business and Women leaders to enhance their influence and decision-making. Our solutions also focus on resilience, clarity, stakeholder management and stress management & burnout while driving organisational growth and achieving professional excellence."
+        description="RuhCo’s executive coaching  encompasses  personalised <strong> CXO coaching </strong> as well as business and Women leaders to enhance their influence and decision-making. Our solutions also focus on resilience, clarity, stakeholder management and <strong> stress management & burnout </strong> while driving organisational growth and achieving professional excellence."
         / >
         <LeadershipProwess />
         <Coaching />

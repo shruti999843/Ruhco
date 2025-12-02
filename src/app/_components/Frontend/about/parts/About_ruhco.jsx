@@ -71,10 +71,10 @@ const About_ruhco = () => {
   return (
     <>
       <div className="text-center">
-        <h2 className="text-3xl font-medium">
+        <h1 className="text-3xl font-medium">
           About {""} <span className="text-[#151582] font-bold">Ruh</span>
           <span className="text-[#E53935] font-bold">Co</span>
-        </h2>
+        </h1>
       </div>
       <section className="py-8 px-4 md:px-12 bg-white">
         <div className="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
