@@ -24,15 +24,16 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        {/* ✅ Google Search Console Verification */}
+        {/* Google Search Console Verification */}
         <meta
           name="google-site-verification"
           content="agMwM5ZQMzwXEa38CGdSjQ9hAbxQNKLnmA3nR8cy_ZI"
         />
 
-        {/* ✅ Google Analytics Script */}
+        {/* ✅ NEW Google Analytics Script */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-RF9ZHCPJ9R"
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-P2SYT10B35"
           strategy="afterInteractive"
         />
 
@@ -41,7 +42,7 @@ export default function RootLayout({ children }) {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-RF9ZHCPJ9R');
+            gtag('config', 'G-P2SYT10B35');
           `}
         </Script>
       </head>
